@@ -12,11 +12,11 @@
 
 #include "ft_printf.h"
 
-int pf_handle_char(t_pf_param param, va_list list)
+int	pf_handle_char(t_pf_param param, va_list list)
 {
-	int count;
-	int c;
-	char p;
+	int		count;
+	int		c;
+	char	p;
 
 	p = (param.flags & PF_FLAG_ZERO ? '0' : ' ');
 	count = 0;

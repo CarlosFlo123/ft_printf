@@ -12,12 +12,12 @@
 
 #include "ft_printf.h"
 
-int pf_max(int a, int b)
+int	pf_max(int a, int b)
 {
 	return (a > b ? a : b);
 }
 
-int pf_get_base(char c)
+int	pf_get_base(char c)
 {
 	if (c == 'X' || c == 'x' || c == 'p')
 		return (16);

@@ -12,15 +12,17 @@
 
 #include <unistd.h>
 
-int pf_write(const char *str, const size_t len)
+int	pf_write(const char *str, const size_t len)
 {
 	write(1, str, len);
 	return (len);
 }
 
-int pf_repeat(const char c, int len)
+int	pf_repeat(const char c, int len)
 {
-	int i = 0;
+	int i;
+
+	i = 0;
 	while (i < len)
 	{
 		pf_write(&c, 1);

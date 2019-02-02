@@ -6,7 +6,7 @@
 /*   By: cflores- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/28 22:51:39 by cflores-          #+#    #+#             */
-/*   Updated: 2019/01/28 22:52:01 by cflores-         ###   ########.fr       */
+/*   Updated: 2019/01/31 18:24:32 by cflores-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ int main()
 	char* world = "Silicon Valley";
 	double j = 42.42;
 
+	ft_printf("%5%\n");
 	ft_printf("%d\n", i);
 	ft_printf("%s\n", hello);
 	ft_printf("%p\n", hello);
